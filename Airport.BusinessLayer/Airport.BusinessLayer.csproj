@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Airport.DataLayer\Airport.DataLayer.csproj" />
+    <ProjectReference Include="..\Airport.Entities\Airport.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
